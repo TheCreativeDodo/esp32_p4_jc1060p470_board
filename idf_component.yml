@@ -1,0 +1,32 @@
+dependencies:
+  chmorgan/esp-audio-player:
+    public: true
+    version: '>=1.0.7,<2.0.0'
+  chmorgan/esp-file-iterator:
+    public: true
+    version: '>=1.0.0,<2.0.0'
+  esp_codec_dev:
+    public: true
+    version: ~1.5
+  espressif/esp_lcd_jd9165:
+    version: '>=2.0.2,<3.0.0'
+  esp_lcd_ili9881c:
+    version: '>=1.0.3,<2.0.0'
+  esp_lcd_touch_gt911:
+    version: ^1
+  espressif/esp_lcd_lt8912b:
+    version: '>=0.1.3,<1.0.0'
+  espressif/esp_lvgl_port:
+    public: true
+    version: ^2
+  idf: '>=5.4'
+  lvgl/lvgl: '>=8,<10'
+description: Board Support Package (BSP) for ESP32-P4 JC1060P470 board
+license: Apache-2.0
+tags:
+- bsp
+- esp32p4
+- jc1060p470
+targets:
+- esp32p4
+version: 0.2.0

@@ -1,0 +1,16 @@
+menu "Getting Started Example"
+
+    config EXAMPLE_STARTUP_SPEAKER_BEEP
+        bool "Play startup speaker beep"
+        default n
+        help
+            Enable a short startup beep to validate the speaker path.
+
+    config EXAMPLE_USE_LVGL_MUSIC_DEMO
+        bool "Start LVGL music demo UI"
+        default y
+        depends on LV_USE_DEMO_MUSIC
+        help
+            Start lv_demo_music() after display initialization.
+
+endmenu
